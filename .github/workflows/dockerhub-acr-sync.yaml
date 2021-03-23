@@ -36,8 +36,8 @@ jobs:
            
       - name: Push HPCC-Core Docker Image to Azure Container Registry
         run: |
-           docker tag hpccsystems/platform-core:latest fancy.azurecr.io/platform-core:latest
-           docker push fancy.azurecr.io/platform-core:latest
+           docker tag hpccsystems/platform-core:latest fancy.azurecr.io/hpccsystems/platform-core:latest
+           docker push fancy.azurecr.io/hpccsystems/platform-core:latest
 
       
         
